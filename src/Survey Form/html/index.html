@@ -32,17 +32,38 @@
     <fieldset>  
       <label>Would you recommend freeCodeCamp to a friend</label> 
        <label>
-        <input type="radio" name="radio-recommend" class="inline"/>Definitely
+        <input type="radio" name="radio-recommend" class="inline"/> Definitely
      </label>
      <label>
-      <input type="radio" name="radio-recommend" class="inline"/>Maybe
+      <input type="radio" name="radio-recommend" class="inline"/> Maybe
       </label>
       <label>
-      <input type="radio" name="radio-recommend" class="inline"/>Not sure
+      <input type="radio" name="radio-recommend" class="inline"/> Not sure
   </label> 
-</fieldset>   
-      
-      </form>
+</fieldset>
+<fieldset>
+  <label for="chkBoxOne">What would you like to see improved? (Check all that apply)</label>
+  <label for="chkBoxOne">
+    <input type="checkbox" id="chkBoxOne" value="checkboxOne" class="inline"/> Front-end Projects
+  </label>
+  <label for="chkBoxTwo">
+    <input type="checkbox" id="chkBoxTwo" value="checkboxTwo" class="inline"/> Back-end Projects
+  </label>
+  <label for="chkBoxThree">
+    <input type="checkbox" id="chkBoxThree" value="checkboxThree" class="inline"/> Data Visualization
+  </label>
+</fieldset>
+<fieldset>
+  <label>Any comments or suggestions?</label>
+  <label for="txtAreaNameOne">
+    <textarea name="txtAreaNameOne" id="txtAreaOne" class="txtAreaComments"  placeholder="Enter your comment here.."></textarea>
+  </label>
+</fieldset>
+<fieldset>
+  <input type="submit" value="Submit" class="submitBtn">
+</fieldset>
+   
+</form>
 
 </body>
 </html>
