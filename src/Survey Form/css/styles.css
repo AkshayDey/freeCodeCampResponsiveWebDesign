@@ -25,10 +25,11 @@ h1,p
 form
 {
   width: 60vw;
-  max-width:500px;
+  max-width:600px;
   min-width:300px;
   margin:0 auto;
-  background-color: rgba(27, 27, 50, 0.8);
+  background-color: rgb(255 255 255 / 74%);
+  padding-bottom: 2em;
 }
 
 label
@@ -46,12 +47,23 @@ input,select
 .inline
 {
   width: unset;
+  vertical-align: middle;
+  margin-top: 0px;
 }
 
 fieldset{
   border: 0;
 }
-/* #survey-form
+.txtAreaComments
 {
-  background-color: rgba(27, 27, 50, 0.8);
-} */
+  width: 100%;
+  resize: vertical;
+  min-height: 120px;
+}
+.submitBtn
+{
+  background-color: blueviolet;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
