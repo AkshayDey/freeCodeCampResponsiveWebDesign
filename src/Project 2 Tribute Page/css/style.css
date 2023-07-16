@@ -1,0 +1,42 @@
+.mainDiv
+{
+    width: 100%;
+    background: #eee;
+    margin: 0 20px;
+}
+.mainDiv > h1{
+    text-align: center;
+}
+#img-div 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span::after
+{
+    content: "-";
+}
+#timelineCaption
+{
+    text-align: center;
+}
+.divTimeline
+{
+    width: 50%;
+    margin: 0 auto;
+}
+#footerParagraph
+{
+    text-align: center;
+}
+.quote
+{
+    width: 50%;
+    margin: 0 auto;
+}
+.quoteClass
+{
+    text-align: center;
+}
